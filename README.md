@@ -46,6 +46,6 @@ The following lists specify which additional parts you'll need to upgrade your e
 * 4 DIN 912 M3x14 screws
 * 4 DIN 7991 M3x18 screws
 * 14 DIN 7991 M3x30 screws
-* 12 ISO 7380 Mxx10 screws
-* DIN 988 6x3x0.5 precision shim rings (YES, measurements are important, and NO, you can't just use cheap M3 washers)
+* 12 ISO 7380 M5x10 screws
+* 16 DIN 988 6x3x0.5 precision shim rings (YES, measurements are important, and NO, you can't just use cheap M3 washers)
 * 16 F623 ball bearings
