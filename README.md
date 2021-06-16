@@ -7,14 +7,14 @@ This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switch
 
 In case you don't know about the Voron Project, check it out at https://www.vorondesign.com/. They design outstanding open-source 3D printers, and if you're looking for a *real* upgrade, I'd suggest you build a Voron instead. It probably won't get any better.
 
-But if you enjoy tinkering on your cheap 3D printer just like me, this mod could be something for you. It doesn't matter if you're still using an original Anet A8, already upgraded to an AM8 or want to build this from scratch. For each case, you will find the necessary parts in the provided BOM. 
+But if you enjoy tinkering on your cheap 3D printer just like me, this mod could be something for you. It doesn't matter if you're still using an original Anet A8 or already upgraded to an AM8. For each case, you will find the necessary parts in the provided BOM. 
 
 __DISCLAIMER__
 I would like to emphasize that this is purely a hobby project, and I cannot guarantee that this rebuild will improve print quality at all!
 
 ## Some Facts
 * Build volume is 220x220x220mm.
-* The dimensions of the aluminum extrsusions are the same as for the AM8.
+* The dimensions of the aluminum extrusions are the same as for the AM8.
 * This upgrade uses as many of the original Anet A8 and AM8 parts a possible. Still, you will have to buy some stuff, have a look at the BOM.
 * Although I redesigned every part, the Y axis did not change compared to the AM8. So if you already have an AM8, you can continue to use your Y axis.
 * You can use the original Anet A8 board for this build, but you will have to flash another firmware. One possibility is to use Marlin (https://marlinfw.org/), which can be configured for Core XZ motion systems. My recommendation is Klipper (https://www.klipper3d.org/) together with a Raspberry Pi running OctoPrint (https://octoprint.org/) or Mainsail (https://docs.mainsail.xyz/). Klipper runs all calculations on the much more computationally powerful Raspberry Pi, so you can use it to compensate for the weak hardware of the original Anet A8 motherboard.
