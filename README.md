@@ -39,7 +39,7 @@ However, a Core XY motion system requires a cube-shaped frame, which we do not h
 * Before printing, calibrate your extruder steps and the temperature and flow rate for your specific filament. Get rid of any strining, warping and elephant food on your prints. There are tons of tutorials on the web on how to do each of that.
 
 ## BOM
-The following lists specify which additional parts you'll need to upgrade your existing printer to an AM8 plus.
+The following lists specify which additional parts you'll need to upgrade your existing printer to an AM8 plus. Note that there are alternative standards for each DIN standard (for example, the corresponding ISO standard). These are just the standards I used to design the parts. If you decide to use other nuts and bolts, check the dimensions beforehand. This is especially important for nuts and countersunk screws, less so for button head screws and cylindrical head screws.
 
 ### If you already have an AM8...
 ... and want to keep your Y axis:
@@ -47,11 +47,11 @@ The following lists specify which additional parts you'll need to upgrade your e
 * ~5 meters of GT2 timing belt with 6mm width (glassfiber belt recommended, and it's highly recommended to replace the Y axis belt too)
 * 4 DIN 934 M2 nuts (only 2 if you're not using the Z endstop)
 * 4 DIN 912 M2x12 screws (only 2 if you're not using the Z endstop)
-* 32 DIN 934 M3 nuts
+* 28 DIN 934 M3 nuts
 * 6 DIN 912 M3x12 screws
 * 8 DIN 912 M3x14 screws
-* 4 DIN 7991 M3x18 screws
-* 22 DIN 7991 M3x30 screws
-* 12 ISO 7380 M5x10 screws
+* 16 DIN 7991/ISO 10642 M3x30 screws
+* 8 DIN 7991/ISO 10642 M3x40 screws
+* 13 ISO 7380 M5x10 screws (only 12 if you're not using the Z endstop)
 * 16 DIN 988 6x3x0.5 precision shim rings (YES, measurements are important, and NO, you can't just use cheap M3 washers)
 * 16 F623 ball bearings
