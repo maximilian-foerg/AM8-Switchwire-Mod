@@ -35,7 +35,7 @@ However, a Core XY motion system requires a cube-shaped frame, which we do not h
 * I recommend printing the parts with a 0.4mm nozzle and the following settings:
   * 0.2mm layer height
   * 4 walls, 5 bottom layers, 5 top layers
-  * 40% grid or gyroid infill
+  * 40% cubic or gyroid infill
 * Before printing, calibrate your extruder steps and the temperature and flow rate for your specific filament. Get rid of any strining, warping and elephant food on your prints. There are tons of tutorials on the web on how to do each of that.
 
 ## BOM
