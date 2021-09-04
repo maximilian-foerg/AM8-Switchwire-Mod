@@ -49,6 +49,12 @@ There's no belt tensioning system. But for printers with a core architecture it'
 * I then installed both belts in the printer. To do this, I first attached both belts with the exact same number of teeth to one side of the print head and then routed them through the motion system. Then I attached both belts to the other side of the printhead. Again, I applied only a little tension to the belts. This is important! It is also crucial to make sure that the belts have the same number of teeth protruding after they have been fastened with the clamp.
 * To tighten the belts, I finished by loosening the screws on the upper pulley mounts until they could be moved a little. While pushing them up with one hand, I reattached them to the frame with the other. In the end, my straps were evenly tensioned.
 
+## FAQ
+### Could you provide a ready-to-go Marlin or Klipper config for this printer?
+Sadly not. This is because I do not have the original Anet A8 board anymore. On my prototype, I'm using Klipper together with an MKS Gen L V1.0 Board, TMC 2208 stepper drivers, and a custom print head with a LJ18A3-8-Z/AX bed leveling probe, E3D V6 hotend and a BMG extruder set up as Bowden extrusion system. If you think my config can still be helpful to you, I'll be happy to send it to you. In the future I'd like to provide ready to use configurations for Marlin and Klipper, but I can't promise that.
+### Why are there two versions of the XZ Joint Rod Clamp (45mm and 46mm)?
+There are two versions of the Anet A8, one with 45mm spacing between the linear rods of the X-axis, and one with 46mm spacing. This also means that the ball bearings on the print head are either 45mm or 46mm apart. You need to find out which version of the Anet A8 you have, and print the appropriate version of the rod clamp.
+
 ## BOM
 The following lists specify which additional parts you'll need to upgrade your existing printer to an AM8 plus. Note that there are alternative standards for each DIN standard (for example, the corresponding ISO standard). These are just the standards I used to design the parts. If you decide to use other nuts and bolts, check the dimensions beforehand. This is especially important for nuts and countersunk screws, less so for button head screws and cylindrical head screws.
 
