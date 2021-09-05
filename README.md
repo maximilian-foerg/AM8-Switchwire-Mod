@@ -68,6 +68,6 @@ The following lists specify which additional parts you'll need to upgrade your e
 * 6 DIN 912 M3x12 screws
 * 16 DIN 7991/ISO 10642 M3x30 screws
 * 8 DIN 7991/ISO 10642 M3x35 screws
-* 13 ISO 7380 M5x10 screws (only 12 if you're not using the Z endstop)
+* 13 ISO 7380 M5x10 screws (only 12 if you're not using the Z endstop) and the same number of M5 slot nuts for your type of aluminium extrusions
 * 16 DIN 988 6x3x0.5 precision shim rings (YES, measurements are important, and NO, you can't just use cheap M3 washers)
 * 16 F623 ball bearings
