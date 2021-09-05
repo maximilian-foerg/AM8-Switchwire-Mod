@@ -3,7 +3,7 @@
 # AM8 plus "Switchwire"
 This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switchwire.
 
-![Rendering of AM8 plus](https://github.com/maximilian-foerg/AM8-plus-Switchwire/blob/ff0caa099e454a39bc08930d6c69bd091ac44261/Renderings/AM8_plus_Switchwire_2021-Sep-04_07-04-03PM-000_CustomizedView15834890300.png)
+![Rendering of AM8 plus](https://github.com/maximilian-foerg/AM8-plus-Switchwire/blob/7e2688451dff600d9a9c57fc6b51b4a1cb78b321/Renderings/AM8_plus_Switchwire_2021-Sep-05_03-54-34PM-000_CustomizedView7736393708.png)
 
 In case you don't know about the Voron Project, check it out at https://www.vorondesign.com/. They design outstanding open-source 3D printers, and if you're looking for a *real* upgrade, I'd suggest you build a Voron instead. It probably won't get any better.
 
@@ -71,3 +71,8 @@ The following lists specify which additional parts you'll need to upgrade your e
 * 13 ISO 7380 M5x10 screws (only 12 if you're not using the Z endstop) and the same number of M5 slot nuts for your type of aluminium extrusions
 * 16 DIN 988 6x3x0.5 precision shim rings (YES, measurements are important, and NO, you can't just use cheap M3 washers)
 * 16 F623 ball bearings
+
+## More renderings!
+![Rendering of AM8 plus](https://github.com/maximilian-foerg/AM8-plus-Switchwire/blob/7e2688451dff600d9a9c57fc6b51b4a1cb78b321/Renderings/AM8_plus_Switchwire_2021-Sep-05_03-56-04PM-000_CustomizedView29330691624.png)
+![Rendering of AM8 plus](https://github.com/maximilian-foerg/AM8-plus-Switchwire/blob/7e2688451dff600d9a9c57fc6b51b4a1cb78b321/Renderings/AM8_plus_Switchwire_2021-Sep-05_03-57-19PM-000_CustomizedView22261559062.png)
+![Rendering of AM8 plus](https://github.com/maximilian-foerg/AM8-plus-Switchwire/blob/7e2688451dff600d9a9c57fc6b51b4a1cb78b321/Renderings/AM8_plus_Switchwire_2021-Sep-05_03-58-23PM-000_CustomizedView30775230664.png)
