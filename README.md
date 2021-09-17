@@ -1,4 +1,4 @@
-# *UNDER DEVELOPMENT*
+# *UNDER DEVELOPMENT !!!*
 
 # AM8 plus "Switchwire"
 This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switchwire.
@@ -54,6 +54,9 @@ There's no belt tensioning system. But for printers with a core architecture it'
 Sadly not. This is because I do not have the original Anet A8 board anymore. On my prototype, I'm using Klipper together with an MKS Gen L V1.0 Board, TMC 2208 stepper drivers, and a custom print head with a LJ18A3-8-Z/AX bed leveling probe, E3D V6 hotend and a BMG extruder set up as Bowden extrusion system. If you think my config can still be helpful to you, I'll be happy to send it to you. In the future I'd like to provide ready to use configurations for Marlin and Klipper, but I can't promise that.
 ### Why are there two versions of the XZ Joint Rod Clamp (45mm and 46mm)?
 There are two versions of the Anet A8, one with 45mm spacing between the linear rods of the X-axis, and one with 46mm spacing. This also means that the ball bearings on the print head are either 45mm or 46mm apart. You need to find out which version of the Anet A8 you have, and print the appropriate version of the rod clamp.
+### Why is this still under development? Can I already transform my printer?
+* The Core XZ mechanics are mature and thoroughly tested by me and will probably not undergo any more changes. I'm using my AM8 plus on a daily basis without any issues.
+* The main reason why it still is under development, is the printhead. The original Anet A8 printhead just isn't great. It's too heavy. Still, the Core XZ mechanics will work fine. The only problem is, unlike threaded spindles, a Core XZ mechanism does not lock itself when the printer is turned off. This means that the print head falls onto the print bed. Well, "falling" is perhaps an exaggeration; with properly tensioned belts, it's sliding down slowly. No speeds are reached that would damage the nozzle or the print bed. Nevertheless, it's not pretty. That's why I'm designing a lighter printhead and want to release it with the mod. But for that you will have to buy more parts, because I want to use a BMG extruder and an E3D v6 hotend. I'm currently using my printer with a prototype of this printhead, and it allows for higher print speeds and better print quality, despite being a bowden setup. It's also more silent.
 
 ## BOM
 The following lists specify which additional parts you'll need to upgrade your existing printer to an AM8 plus. Note that there are alternative standards for each DIN standard (for example, the corresponding ISO standard). These are just the standards I used to design the parts. If you decide to use other nuts and bolts, check the dimensions beforehand. This is especially important for nuts and countersunk screws, less so for button head screws and cylindrical head screws.
