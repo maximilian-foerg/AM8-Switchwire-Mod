@@ -3,7 +3,7 @@
 # AM8 plus "Switchwire"
 This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switchwire.
 
-![Rendering of AM8 plus](https://github.com/maximilian-foerg/AM8-plus-Switchwire/blob/7e2688451dff600d9a9c57fc6b51b4a1cb78b321/Renderings/AM8_plus_Switchwire_2021-Sep-05_03-54-34PM-000_CustomizedView7736393708.png)
+![Render of AM8 plus](https://github.com/maximilian-foerg/AM8-plus-Switchwire/blob/09ddd9bf94e676ea0e1a662f119875ce8d69d4bc/Images/Render%2001.png)
 
 In case you don't know about the Voron Project, check it out at https://www.vorondesign.com/. They design outstanding open-source 3D printers, and if you're looking for a *real* upgrade, I'd suggest you build a Voron instead. It probably won't get any better.
 
