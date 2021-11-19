@@ -69,7 +69,6 @@ The following lists specify which additional parts you'll need to upgrade your e
 ... additionally, if you want to upgrade your Y axis:
 | Item | Amount | Comment |
 | ---- | ------ | ------- |
-
 | ISO 7380 M5x10 screws | 12 | You may already have these from your AM8 |
 | M5 slot nuts for your type of aluminium extrusions | 12 | You may already have these from your AM8 |
 
