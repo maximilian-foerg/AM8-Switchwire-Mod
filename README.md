@@ -3,7 +3,7 @@
 # AM8 plus "Switchwire"
 This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switchwire.
 
-![Render of AM8 plus](https://github.com/maximilian-foerg/AM8-plus-Switchwire/blob/09ddd9bf94e676ea0e1a662f119875ce8d69d4bc/Images/Render%2001.png)
+![Render 01](../Images/Render01.png)
 
 In case you don't know about the Voron Project, check it out at https://www.vorondesign.com/. They design outstanding open-source 3D printers, and if you're looking for a *real* upgrade, I'd suggest you build a Voron instead. It probably won't get any better.
 
@@ -11,6 +11,14 @@ But if you enjoy tinkering on your cheap 3D printer just like me, this mod could
 
 __DISCLAIMER__
 I would like to emphasize that this is purely a hobby project, and I cannot guarantee that this rebuild will improve print quality at all!
+
+## Features
+### Core XZ using Anet A8's linear rods!
+![Render 02](../Images/Render02.png)
+### Easy adjustable and precise Z endstop!
+![Render 03](../Images/Render03.png)
+### Compatible with VORON Afterburner!
+![Render 04](../Images/Render04.png)
 
 ## Some Facts
 * Build volume is 220x220x220mm.
