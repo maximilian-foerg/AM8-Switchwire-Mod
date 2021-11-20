@@ -39,8 +39,8 @@ However, a Core XY motion system requires a cube-shaped frame, which we do not h
 ## FAQ
 ### Could you provide a ready-to-go Marlin or Klipper config for this printer?
 Sadly not. This is because I do not have the original Anet A8 board anymore. On my prototype, I'm using Klipper together with an MKS Gen L V1.0 Board, TMC 2208 stepper drivers, and a custom print head with a LJ18A3-8-Z/AX bed leveling probe, E3D V6 hotend and a BMG extruder set up as Bowden extrusion system. If you think my config can still be helpful to you, I'll be happy to send it to you. In the future I'd like to provide ready to use configurations for Marlin and Klipper, but I can't promise that.
-### Why are there three versions of the XZ Joint Rod Clamp (40, 45 and 46mm)?
-There are two versions of the Anet A8, one with 45mm spacing between the linear rods of the X-axis, and one with 46mm spacing. This also means that the ball bearings on the print head are either 45mm or 46mm apart. You need to find out which version of the Anet A8 you have, and print the appropriate version of the rod clamp. The 40mm rod clamps are needed for the VORON Afterburner printhead.
+### Why are there three versions of the XZ Axis X Rod Mount (40, 45 and 46mm)?
+There are two versions of the Anet A8, one with 45mm spacing between the linear rods of the X-axis, and one with 46mm spacing. This also means that the ball bearings on the print head are either 45mm or 46mm apart. You need to find out which version of the Anet A8 you have, and print the appropriate version of the rod mounts. The 40mm rod mounts are needed for the VORON Afterburner.
 
 ## Printing Tips
 * The number at the end of each file name indicates how often the part must be printed.
@@ -79,6 +79,7 @@ The following lists specify which additional parts you'll need to upgrade your e
 | ---- | ------ | ------- |
 | ISO 7380 M5x10 screws | 12 | You may already have these from your AM8 |
 | M5 slot nuts for your type of aluminium extrusions | 12 | You may already have these from your AM8 |
+| WORK IN PROGRESS |
 
 For the original Anet A8 printhead, you need:
 | Item | Amount |
@@ -89,3 +90,4 @@ For the original Anet A8 printhead, you need:
 For the VORON Afterburner, you need:
 | Item | Amount |
 | ---- | ------ |
+| WORK IN PROGRESS |
