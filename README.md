@@ -13,9 +13,9 @@ __DISCLAIMER__
 I would like to emphasize that this is purely a hobby project, and I cannot guarantee that this rebuild will improve print quality at all!
 
 ## Features
-### Core XZ using Anet A8's linear rods!
+### Core XZ using Anet A8's stock linear rods!
 ![Render 02](Images/Render%2002.png)
-### Easy adjustable and precise Z endstop!
+### Easily and precisely adjustable Z endstop!
 ![Render 03](Images/Render%2003.png)
 ### Compatible with VORON Afterburner!
 ![Render 04](Images/Render%2004.png)
