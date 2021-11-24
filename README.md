@@ -36,12 +36,6 @@ However, a Core XY motion system requires a cube-shaped frame, which we do not h
 * You can make movements in the Z direction just as fast as in the X and Y directions.
 * You need one less stepper motor.
 
-## FAQ
-### Could you provide a ready-to-go Marlin or Klipper config for this printer?
-Sadly not. This is because I do not have the original Anet A8 board anymore. On my prototype, I'm using Klipper together with an MKS Gen L V1.0 Board, TMC 2208 stepper drivers, and a custom print head with a LJ18A3-8-Z/AX bed leveling probe, E3D V6 hotend and a BMG extruder set up as Bowden extrusion system. If you think my config can still be helpful to you, I'll be happy to send it to you. In the future I'd like to provide ready to use configurations for Marlin and Klipper, but I can't promise that.
-### Why are there three versions of the XZ Axis X Rod Mount (40, 45 and 46mm)?
-There are two versions of the Anet A8, one with 45mm spacing between the linear rods of the X-axis, and one with 46mm spacing. This also means that the ball bearings on the print head are either 45mm or 46mm apart. You need to find out which version of the Anet A8 you have, and print the appropriate version of the rod mounts. The 40mm rod mounts are needed for the VORON Afterburner.
-
 ## Printing Tips
 * The number at the end of each file name indicates how often the part must be printed.
 * All parts are already oriented for the best printing position. Do not change the orientation.
@@ -51,6 +45,29 @@ There are two versions of the Anet A8, one with 45mm spacing between the linear 
   * 4 walls, 5 bottom layers, 5 top layers
   * 40% cubic or gyroid infill
 * Before printing, calibrate your extruder steps and the temperature and flow rate for your specific filament. Get rid of any strining, warping and elephant food on your prints. There are tons of tutorials on the web on how to do each of that.
+
+## Firmware Tips
+This sections contains some tips for firmware configuration.
+### General
+* Min. Y position: 0
+* Max. Y position: 220
+* Min. Z position: 0
+* Max. Z position: 220
+* DO NOT execute g-code command `M84` after prints. Print head would fall down on print or bed.
+### Anet A8 print head
+* Min. X position: -23
+* Max. X position: 225
+* Max. velocity (all directions): 120 mm/s
+* Max. acceleration (all directions): 700 mm/s^2
+* Z hop before homing: 35 mm
+### VORON Afterburner print head
+* WORK IN PROGRESS
+
+## FAQ
+### Could you provide a ready-to-go Marlin or Klipper config for this printer?
+Sadly not. This is because I do not have the original Anet A8 board anymore. On my prototype, I'm using Klipper together with an MKS Gen L V1.0 Board, TMC 2208 stepper drivers, and a custom print head with a LJ18A3-8-Z/AX bed leveling probe, E3D V6 hotend and a BMG extruder set up as Bowden extrusion system. If you think my config can still be helpful to you, I'll be happy to send it to you. In the future I'd like to provide ready to use configurations for Marlin and Klipper, but I can't promise that.
+### Why are there three versions of the XZ Axis X Rod Mount (40, 45 and 46mm)?
+There are two versions of the Anet A8, one with 45mm spacing between the linear rods of the X-axis, and one with 46mm spacing. This also means that the ball bearings on the print head are either 45mm or 46mm apart. You need to find out which version of the Anet A8 you have, and print the appropriate version of the rod mounts. The 40mm rod mounts are needed for the VORON Afterburner.
 
 ## BOM
 The following lists specify which additional parts you'll need to upgrade your existing printer to an AM8 plus. Note that there are alternative standards for each DIN standard (for example, the corresponding ISO standard). These are just the standards I used to design the parts. If you decide to use other nuts and bolts, check the dimensions beforehand. This is especially important for nuts and countersunk screws, less so for button head screws and cylindrical head screws.
