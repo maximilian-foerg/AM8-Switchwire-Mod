@@ -53,7 +53,7 @@ This sections contains some tips for firmware configuration.
 * Max. Y position: 220
 * Min. Z position: 0
 * Max. Z position: 220
-* DO NOT execute g-code command `M84` after prints. Print head would fall down on print or bed.
+* DO NOT disable stepper motors (g-code command `M84`) after prints. Print head would fall down on print or bed.
 ### Anet A8 print head
 * Min. X position: -23
 * Max. X position: 225
