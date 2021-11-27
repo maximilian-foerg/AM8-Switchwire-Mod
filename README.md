@@ -6,11 +6,10 @@ This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switch
 ![Render 01](Images/Render%2001.png)
 
 In case you don't know about the Voron Project, check it out at https://www.vorondesign.com/. They design outstanding open-source 3D printers, and if you're looking for a *real* upgrade, I'd suggest you build a Voron instead. It probably won't get any better.
-
-But if you enjoy tinkering on your cheap 3D printer just like me, this mod could be something for you. It doesn't matter if you're still using an original Anet A8 or already upgraded to an AM8. For each case, you will find the necessary parts in the provided BOM. 
+But if you enjoy tinkering on your cheap 3D printer just like me, this mod could be something for you.
 
 __DISCLAIMER__
-I would like to emphasize that this is purely a hobby project, and I cannot guarantee that this rebuild will improve print quality at all!
+I would like to emphasize that this is purely a hobby project, and I cannot guarantee that this rebuild will improve print quality at all.
 
 ## Features
 ### Core XZ using Anet A8's stock linear rods!
@@ -72,39 +71,64 @@ There are two versions of the Anet A8, one with 45mm spacing between the linear 
 ## BOM
 The following lists specify which additional parts you'll need to upgrade your existing printer to an AM8 plus. Note that there are alternative standards for each DIN standard (for example, the corresponding ISO standard). These are just the standards I used to design the parts. If you decide to use other nuts and bolts, check the dimensions beforehand. This is especially important for nuts and countersunk screws, less so for button head screws and cylindrical head screws.
 
-### If you already have an AM8...
-... and want to keep your Y axis:
-
+### If you want to keep your Y axis:
 | Item | Amount | Comment |
-| ---- | ------ | ------- |
+| ---- | :----: | ------- |
 | GT2 16T timing pulley | 1 | 3 needed in total, but 2 are already included with Anet A8 |
 | GT2 timing belt with 6mm width | ~5m | Glassfiber belt recommended, and it's highly recommended to replace the Y axis belt too |
-| DIN 934 M2 nuts | 4 | Only 2 if you're not using the Z endstop |
-| DIN 912 M2x10 screws | 4 | Only 2 if you're not using the Z endstop |
-| DIN 934 M3 nuts | 4 |
-| DIN 7991/ISO 10642 M3x25 screws | 4 |
-| DIN 7991/ISO 10642 M3x30 screws | 20 |
+| DIN 934 M2 nut | 4 | Only 2 if you're not using the Z endstop |
+| DIN 912 M2x10 screw | 4 | Only 2 if you're not using the Z endstop |
+| DIN 934 M3 nut | 4 |
+| DIN 7991/ISO 10642 M3x25 screw | 4 |
+| DIN 7991/ISO 10642 M3x30 screw | 20 |
 | DIN 912 M3x30 screw or any other M3 screw with 30-40mm in length | 1 | Only if you ARE using the Z endstop |
-| ISO 7380 M5x10 screws | 21 | Only 20 if you're not using the Z endstop |
-| M5 slot nuts for your type of aluminium extrusions | 21 | Only 20 if you're not using the Z endstop |
-| DIN 988 6x3x0.5 precision shim rings | 16 | YES, measurements are important, and NO, you can't just use cheap M3 washers |
-| F623 ball bearings | 16 |
-| Threaded heat inserts M3x5x4 | 13 | The ones VORON printers use; Only 12 if you're not using the Z endstop |
+| ISO 7380 M5x10 screw | 21 | Only 20 if you're not using the Z endstop |
+| M5 slot nut for your type of aluminium extrusions | 21 | Only 20 if you're not using the Z endstop |
+| DIN 988 6x3x0.5 precision shim ring | 16 | YES, measurements are important, and NO, you can't just use cheap M3 washers |
+| F623 ball bearing | 16 |
+| Threaded heat insert M3x5x4 | 13 | The ones VORON printers use; Only 12 if you're not using the Z endstop |
 
-... additionally, if you want to upgrade your Y axis:
+### If you want to upgrade your Y axis, you'll ALSO need:
 | Item | Amount | Comment |
-| ---- | ------ | ------- |
-| ISO 7380 M5x10 screws | 12 | You may already have these from your AM8 |
-| M5 slot nuts for your type of aluminium extrusions | 12 | You may already have these from your AM8 |
-| WORK IN PROGRESS |
+| ---- | :----: | ------- |
+| DIN 912 M2x14 screw | 2 |
+| DIN 934 M2 nut | 2 |
+| DIN 912 M3x25 screw | 2 |
+| DIN 7991/ISO 10642 M3x30 screw | 4 |
+| DIN 912 M4x10 screw | 1 | Shorter screw does work too |
+| ISO 7380 M5x10 screw | 12 | You may already have these from your AM8 |
+| M5 slot nut for your type of aluminium extrusions | 12 | You may already have these from your AM8 |
+| DIN 988 6x3x0.5 precision shim ring | 2 | Again, measurements are important |
+| F623 ball bearing | 2 | Came with A8 |
 
+### Print Heads
 For the original Anet A8 print head, you need:
 | Item | Amount |
-| ---- | ------ |
-| DIN 934 M3 nuts | 2 |
-| DIN 912 M3x12 screws | 2 |
+| ---- | :----: |
+| DIN 934 M3 nut | 2 |
+| DIN 912 M3x12 screw | 2 |
 
-For the VORON Afterburner, you need:
-| Item | Amount |
-| ---- | ------ |
-| WORK IN PROGRESS |
+For the VORON Afterburner, you need (some may also be listed in the official sourcing guide):
+| Item | Amount | Comment |
+| ---- | :----: | ------- |
+| DIN 934 M3 nut | 2 |
+| DIN 912 M3x12 screw | 4 |
+| DIN 912 M3x20 screw | 2 | Only if you are using the PL-08N probe |
+| DIN 912 M3x30 screw | 4 |
+| DIN 912 M3x40 screw | 3 |
+| Threaded heat insert M3x5x4 | 9 | Only 7 if you're NOT using the PL-08N probe |
+| LM8LUU linear bearing | 2 | Misumi recommended. Short LM8UU bearings of Anet A8 print head NOT compatible. |
+
+These are the itmes needed for the adapter. For the rest of the items, please refer to the official VORON sourcing guide: https://www.vorondesign.com/sourcing_guide (select 'VORON Afterburner' at the bottom).
+
+For the printed parts, you can download Switchwire's release repository: https://github.com/VoronDesign/Voron-Switchwire/releases/tag/V1.0. You will find the STLs under `STL/Gantry/XZ_Axis/X_Carriage`.
+Print the following:
+* `[a]_blower_housing_front.stl`
+* `blower_housing_rear.stl`
+* `hotend_fan_mount.stl`
+* `Direct_Feed/[a]_guidler.stl`
+* `Direct_Feed/[a]_latch.stl`
+* `Direct_Feed/[a]_latch_shuttle.stl`
+* `Direct Feed/extruder_body.stl`
+* `Direct_Feed/extruder_motor_plate.stl`
+* And every part under `Printheads/X` for print head X of your choice
