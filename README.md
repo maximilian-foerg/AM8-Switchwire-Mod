@@ -74,32 +74,33 @@ The following lists specify which additional parts you'll need to upgrade your e
 ### If you want to keep your Y axis:
 | Item | Amount | Comment |
 | ---- | :----: | ------- |
-| GT2 16T timing pulley | 1 | 3 needed in total, but 2 are already included with Anet A8 |
-| GT2 timing belt with 6mm width | ~5m | Glassfiber belt recommended, and it's highly recommended to replace the Y axis belt too |
 | DIN 934 M2 nut | 4 | Only 2 if you're not using the Z endstop |
 | DIN 912 M2x10 screw | 4 | Only 2 if you're not using the Z endstop |
-| DIN 934 M3 nut | 4 |
-| DIN 7991/ISO 10642 M3x25 screw | 4 |
-| DIN 7991/ISO 10642 M3x30 screw | 20 |
+| ISO 7380 M3x25 screw | 4 |
+| ISO 7380 M3x30 screw | 20 |
 | DIN 912 M3x30 screw or any other M3 screw with 30-40mm in length | 1 | Only if you ARE using the Z endstop |
 | ISO 7380 M5x10 screw | 21 | Only 20 if you're not using the Z endstop |
 | M5 slot nut for your type of aluminium extrusions | 21 | Only 20 if you're not using the Z endstop |
 | DIN 988 6x3x0.5 precision shim ring | 16 | YES, measurements are important, and NO, you can't just use cheap M3 washers |
+| GT2 16T timing pulley | 1 | 3 needed in total, but 2 are already included with Anet A8 |
+| GT2 timing belt with 6mm width | ~5m | Glassfiber belt recommended, and it's highly recommended to replace the Y axis belt too |
 | F623 ball bearing | 16 |
-| Threaded heat insert M3x5x4 | 13 | The ones VORON printers use; Only 12 if you're not using the Z endstop |
+| Threaded heat insert M3x5x4 | 17 | The ones VORON printers use; Only 16 if you're not using the Z endstop |
 
 ### If you want to upgrade your Y axis, you'll ALSO need:
 | Item | Amount | Comment |
 | ---- | :----: | ------- |
 | DIN 912 M2x14 screw | 2 |
 | DIN 934 M2 nut | 2 |
-| DIN 912 M3x25 screw | 2 |
-| DIN 7991/ISO 10642 M3x30 screw | 4 |
-| DIN 912 M4x10 screw | 1 | Shorter screw does work too |
+| DIN 912 M3x25 screw | 1 | Any other M3 screw with 25mm+ in length would work too |
+| ISO 7380 M3x25 screw | 1 |
+| ISO 7380 M3x30 screw | 4 |
+| DIN 912 M4x10 screw | 1 | Shorter screw does work too, but head is important |
 | ISO 7380 M5x10 screw | 12 | You may already have these from your AM8 |
 | M5 slot nut for your type of aluminium extrusions | 12 | You may already have these from your AM8 |
 | DIN 988 6x3x0.5 precision shim ring | 2 | Again, measurements are important |
 | F623 ball bearing | 2 | Came with A8 |
+| Threaded heat insert M3x5x4 | 2 |
 
 ### Print Heads
 For the original Anet A8 print head, you need:
@@ -108,13 +109,13 @@ For the original Anet A8 print head, you need:
 | DIN 934 M3 nut | 2 |
 | DIN 912 M3x12 screw | 2 |
 
-For the VORON Afterburner, you need (some may also be listed in the official sourcing guide):
+For the VORON Afterburner Adapter, you need (some may also be listed in the official sourcing guide):
 | Item | Amount | Comment |
 | ---- | :----: | ------- |
 | DIN 934 M3 nut | 2 |
 | DIN 912 M3x12 screw | 4 |
 | DIN 912 M3x20 screw | 2 | Only if you are using the PL-08N probe |
-| DIN 912 M3x30 screw | 4 |
+| DIN 912 M3x30 screw | 2 |
 | DIN 912 M3x40 screw | 3 |
 | Threaded heat insert M3x5x4 | 9 | Only 7 if you're NOT using the PL-08N probe |
 | LM8LUU linear bearing | 2 | Misumi recommended. Short LM8UU bearings of Anet A8 print head NOT compatible. |
