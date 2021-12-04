@@ -96,15 +96,13 @@ The following lists specify which additional parts you'll need to upgrade your e
 | ---- | :----: | ------- |
 | DIN 912 M2x14 screw | 2 |
 | DIN 934 M2 nut | 2 |
-| DIN 912 M3x25 screw | 1 | Any other M3 screw with 25mm+ in length would work too |
-| ISO 7380 M3x25 screw | 1 |
+| DIN 934 M3 nut | 1 |
+| ISO 7380 M3x16 screw | 1 | DIN 912 or other button head would work too, length should be 16-18mm |
 | ISO 7380 M3x30 screw | 4 |
-| DIN 912 M4x10 screw | 1 | Shorter screw does work too, but head is important |
 | ISO 7380 M5x10 screw | 12 | You may already have these from your AM8 |
 | M5 slot nut for your type of aluminium extrusions | 12 | You may already have these from your AM8 |
 | DIN 988 6x3x0.5 precision shim ring | 2 | Again, measurements are important |
 | F623 ball bearing | 2 | Came with A8 |
-| Threaded heat insert M3x5x4 | 2 |
 
 ### Print Heads
 #### Original Anet A8
