@@ -8,9 +8,6 @@ This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switch
 In case you don't know about the Voron Project, check it out at https://www.vorondesign.com/. They design outstanding open-source 3D printers, and if you're looking for a *real* upgrade, I'd suggest you build a Voron instead. It probably won't get any better.
 But if you enjoy tinkering on your cheap 3D printer just like me, this mod could be something for you.
 
-__DISCLAIMER__
-I would like to emphasize that this is purely a hobby project, and I cannot guarantee that this rebuild will improve print quality at all.
-
 ## Features
 ### Core XZ using Anet A8's stock linear rods!
 ![Render 02](Images/Render%2002.png)
@@ -36,13 +33,15 @@ However, a Core XY motion system requires a cube-shaped frame, which we do not h
 * You need one less stepper motor.
 
 ## Printing Tips
-* The number at the end of each file name indicates how often the part must be printed.
-* All parts are already oriented for the best printing position. Do not change the orientation.
-* The parts HAVE to be printed in ABS, PETG or another material that can withstand mechanical stress. PLA is NOT an option. Avoid PETG if you have an enclosure for your printer or want to build one, because it bends at high ambient temperatures. ABS is the best way to go here.
-* I recommend printing the parts with a 0.4mm nozzle and the following settings:
-  * 0.2mm layer height
+* A number at the end of each file name indicates how often the part must be printed.
+* All parts are already oriented for the best printing position. Do not change the orientation. They are specially designed and oriented to be printed without any supports.
+* The parts HAVE to be printed in ABS, PETG or another material that can withstand mechanical stress. PLA is NOT an option. Avoid PETG if you have an enclosure for your printer or want to build one, because it bends at high ambient temperatures ("heat creep"). ABS is the best way to go here.
+* The parts are designed to be printed with a 0.4mm nozzle at 0.2mm layer height. I recommend the following slicer settings:
   * 4 walls, 5 bottom layers, 5 top layers
   * 40% cubic or gyroid infill
+  * No supports
+  * No raft
+  * Brim or skirt as needed
 * Before printing, calibrate your extruder steps and the temperature and flow rate for your specific filament. Get rid of any strining, warping and elephant food on your prints. There are tons of tutorials on the web on how to do each of that.
 
 ## Firmware Tips
@@ -56,11 +55,16 @@ This sections contains some tips for firmware configuration.
 ### Anet A8 print head
 * Min. X position: -23
 * Max. X position: 225
-* Max. velocity (all directions): 120 mm/s
-* Max. acceleration (all directions): 700 mm/s^2
+* Max. velocity (all directions): 100 mm/s
 * Z hop before homing: 35 mm
 ### VORON Afterburner print head
-* WORK IN PROGRESS
+* Min. X position: -18
+* Max. X position: 240
+* Max. velocity (XY): 120 mm/s
+* Max. velocity (Z): 100 mm/s
+* Max. acceleration (XY directions): 3000 mm/s^2
+* Max. acceleration (Z direction): 1000 mm/s^2
+* Z hop before homing: 5 mm
 
 ## FAQ
 ### Could you provide a ready-to-go Marlin or Klipper config for this printer?
@@ -103,13 +107,14 @@ The following lists specify which additional parts you'll need to upgrade your e
 | Threaded heat insert M3x5x4 | 2 |
 
 ### Print Heads
-For the original Anet A8 print head, you need:
+#### Original Anet A8
 | Item | Amount |
 | ---- | :----: |
 | DIN 934 M3 nut | 2 |
 | DIN 912 M3x12 screw | 2 |
 
-For the VORON Afterburner Adapter, you need (some may also be listed in the official sourcing guide):
+#### VORON Afterburner
+For the adapter and belt clamp, you need (some may also be listed in the official sourcing guide):
 | Item | Amount | Comment |
 | ---- | :----: | ------- |
 | DIN 934 M3 nut | 2 |
@@ -120,7 +125,7 @@ For the VORON Afterburner Adapter, you need (some may also be listed in the offi
 | Threaded heat insert M3x5x4 | 9 | Only 7 if you're NOT using the PL-08N probe |
 | LM8LUU linear bearing | 2 | Misumi recommended. Short LM8UU bearings of Anet A8 print head NOT compatible. |
 
-These are the itmes needed for the adapter. For the rest of the items, please refer to the official VORON sourcing guide: https://www.vorondesign.com/sourcing_guide (select 'VORON Afterburner' at the bottom).
+For the rest of the items, please refer to the official VORON sourcing guide: https://www.vorondesign.com/sourcing_guide (select 'VORON Afterburner' at the bottom).
 
 For the printed parts, you can download Switchwire's release repository: https://github.com/VoronDesign/Voron-Switchwire/releases/tag/V1.0. You will find the STLs under `STL/Gantry/XZ_Axis/X_Carriage`.
 Print the following:
