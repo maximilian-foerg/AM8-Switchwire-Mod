@@ -17,7 +17,7 @@ But if you enjoy tinkering on your cheap 3D printer just like me, this mod could
 ![Render 04](Images/Render%2007.png)
 
 ## Some Facts
-* Build volume is 220x220x220mm.
+* Build volume is 220x220x220mm with Anet A8 print head and 220x220x270mm with VORON Afterburner.
 * The dimensions of the aluminum extrusions are the same as for the AM8.
 * This upgrade uses as many of the original Anet A8 and AM8 parts a possible. Still, you will have to buy some stuff. Have a look at the [BOM](#bom).
 * Although I redesigned every part, the Y axis did not change compared to the AM8. So if you already have an AM8, you can continue to use your Y axis.
@@ -50,21 +50,22 @@ This sections contains some tips for firmware configuration.
 * Min. Y position: 0
 * Max. Y position: 220
 * Min. Z position: 0
-* Max. Z position: 220
+* Z hop before homing: 5 mm
 * DO NOT disable stepper motors (g-code command `M84`) after prints. Print head would fall down on print or bed.
 ### Anet A8 print head
-* Min. X position: -23
+* Min. X position: -24
 * Max. X position: 225
+* Max. Z position: 220
 * Max. velocity (all directions): 100 mm/s
-* Z hop before homing: 35 mm
+* Choose a z hop > 30mm if using a level probe instead of the Z endstop switch. This is necessary because if the printhead falls next to the bed after power off, the nozzle protrudes about 30mm below the bed.
 ### VORON Afterburner print head
-* Min. X position: -18
+* Min. X position: -13.50mm
 * Max. X position: 240
+* Max. Z position: 270
 * Max. velocity (XY): 120 mm/s
 * Max. velocity (Z): 100 mm/s
 * Max. acceleration (XY directions): 3000 mm/s^2
 * Max. acceleration (Z direction): 1000 mm/s^2
-* Z hop before homing: 5 mm
 
 ## FAQ
 ### Could you provide a ready-to-go Marlin or Klipper config for this printer?
@@ -103,6 +104,14 @@ The following lists specify which additional parts you'll need to upgrade your e
 | M5 slot nut for your type of aluminium extrusions | 12 | You may already have these from your AM8 |
 | DIN 988 6x3x0.5 precision shim ring | 2 | Again, measurements are important |
 | F623 ball bearing | 2 | Came with A8 |
+
+### Accessories
+#### Print Head Cable Duct
+| Item | Amount | Comment |
+| ---- | :----: | ------- |
+| ISO 7380 M5x10 screw | 1 |
+| M5 slot nut for your type of aluminium extrusions | 1 |
+| Zip tie | 3 | Max. 3.50mm in width |
 
 ### Print Heads
 #### Original Anet A8
