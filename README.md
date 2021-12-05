@@ -105,13 +105,6 @@ The following lists specify which additional parts you'll need to upgrade your e
 | DIN 988 6x3x0.5 precision shim ring | 2 | Again, measurements are important |
 | F623 ball bearing | 2 | Came with A8 |
 
-### Accessories
-#### Print Head Cable Duct
-| Item | Amount | Comment |
-| ---- | :----: | ------- |
-| ISO 7380 M5x10 screw | 1 |
-| M5 slot nut for your type of aluminium extrusions | 1 |
-| Zip tie | 3 | Max. 3.50mm in width |
 
 ### Print Heads
 #### Original Anet A8
@@ -145,3 +138,29 @@ Print the following:
 * `Direct Feed/extruder_body.stl`
 * `Direct_Feed/extruder_motor_plate.stl`
 * And every part under `Printheads/X` for print head X of your choice
+
+
+### Accessories
+#### Print Head Cable Duct
+| Item | Amount | Comment |
+| ---- | :----: | ------- |
+| ISO 7380 M5x10 screw | 1 |
+| M5 slot nut for your type of aluminium extrusions | 1 |
+| Zip tie | 3 | Max. 3.50mm in width |
+
+#### Feet
+| Item | Amount |
+| ---- | :----: |
+| ISO 7380 M5x10 screw | 4 |
+
+#### LCD Controller Mount
+| Item | Amount |
+| ---- | :----: |
+| ISO 7380 M3x10 screw | 2 |
+| ISO 7380 or DIN 912 M3x12 screw | 4 |
+| ISO 7380 M5x10 screw | 1 |
+| Threaded heat insert M3x5x4 | 2 |
+
+From the VORON Switchwire repository (link above), print everything...
+* ... from directory `STL/Electronics/LCD/2004 (Prusa)` for LCD 2004 controller (Anet A8's stock LCD controller)
+* ... or from directory `STL/Electronics/LCD/Mini12864` for Mini 12864 LCD controller
