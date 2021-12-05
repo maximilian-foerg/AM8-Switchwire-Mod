@@ -152,6 +152,7 @@ Print the following:
 | Item | Amount |
 | ---- | :----: |
 | ISO 7380 M5x10 screw | 4 |
+| M5 slot nut for your type of aluminium extrusions | 4 |
 
 #### LCD Controller Mount
 | Item | Amount |
@@ -159,6 +160,7 @@ Print the following:
 | ISO 7380 M3x10 screw | 2 |
 | ISO 7380 or DIN 912 M3x12 screw | 4 |
 | ISO 7380 M5x10 screw | 1 |
+| M5 slot nut for your type of aluminium extrusions | 1 |
 | Threaded heat insert M3x5x4 | 2 |
 
 From the VORON Switchwire repository (link above), print everything...
