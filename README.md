@@ -3,13 +3,13 @@
 # AM8 plus "Switchwire"
 
 _Table of content_
-[1 Renders](#renders)
-[2 Some Facts](#some-facts)
-[3 Why Core XZ?](#why-core-xz)
-[4 Printing Tips](#printing-tips)
-[5 Firmware Tips](#firmware-tips)
-[6 FAQ](#faq)
-[7 BOM (Bill of Materials)](#bom)
+1. [Renders](#renders)
+2. [Some Facts](#some-facts)
+3. [Why Core XZ?](#why-core-xz)
+4. [Printing Tips](#printing-tips)
+5. [Firmware Tips](#firmware-tips)
+6. [FAQ](#faq)
+7. [BOM (Bill of Materials)](#bom)
 
 This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switchwire, which also makes the AM8 compatible with VORON Afterburner.
 
