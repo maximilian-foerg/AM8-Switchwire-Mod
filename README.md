@@ -1,6 +1,4 @@
-# *UNDER DEVELOPMENT !!!*
-
-# AM8 plus "Switchwire"
+# AM8 Switchwire Mod
 
 _Table of content_
 1. [Renders](#renders)
@@ -87,7 +85,7 @@ Sadly not. This is because I do not have the original Anet A8 board anymore. On 
 There are two versions of the Anet A8, one with 45mm spacing between the linear rods of the X-axis, and one with 46mm spacing. This also means that the ball bearings on the print head are either 45mm or 46mm apart. You need to find out which version of the Anet A8 you have, and print the appropriate version of the rod mounts. The 40mm rod mounts are needed for the VORON Afterburner.
 
 ## BOM
-The following lists specify which additional parts you'll need to upgrade your existing printer to an AM8 plus. Note that there are alternative standards for each DIN standard (for example, the corresponding ISO standard). These are just the standards I used to design the parts. If you decide to use other nuts and bolts, check the dimensions beforehand. This is especially important for nuts and countersunk screws, less so for button head screws and cylindrical head screws.
+The following lists specify which additional parts you'll need to upgrade your existing printer to this mod. Note that there are alternative standards for each DIN standard (for example, the corresponding ISO standard). These are just the standards I used to design the parts. If you decide to use other nuts and bolts, check the dimensions beforehand. This is especially important for nuts and countersunk screws, less so for button head screws and cylindrical head screws.
 
 ### If you want to keep your Y axis:
 | Item | Amount | Comment |
