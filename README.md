@@ -1,6 +1,6 @@
 # AM8 Switchwire Mod
 
-_Table of content_
+_Table of Contents_
 1. [Renders](#renders)
 2. [Some Facts](#some-facts)
 3. [Why Core XZ?](#why-core-xz)
@@ -57,6 +57,7 @@ However, a Core XY motion system requires a cube-shaped frame, which we do not h
 
 ## Firmware Tips
 This sections contains some tips for firmware configuration.
+
 ### General
 * Min. Y position: 0
 * Max. Y position: 220
@@ -116,7 +117,6 @@ The following lists specify which additional parts you'll need to upgrade your e
 | DIN 988 6x3x0.5 precision shim ring | 2 | Again, measurements are important |
 | F623 ball bearing | 2 | Came with A8 |
 
-
 ### Print Heads
 #### Original Anet A8
 | Item | Amount |
@@ -150,8 +150,9 @@ Print the following:
 * `Direct_Feed/extruder_motor_plate.stl`
 * And every part under `Printheads/X` for print head X of your choice
 
-
 ### Accessories
+Required parts for optional accessories.
+
 #### Print Head Cable Duct
 | Item | Amount | Comment |
 | ---- | :----: | ------- |
@@ -160,9 +161,9 @@ Print the following:
 | Zip tie | 3 | Max. 3.50mm in width |
 
 #### Feet
-| Item | Amount |
-| ---- | :----: |
-| ISO 7380 M5x10 screw | 4 |
+| Item | Amount | Comment |
+| ---- | :----: | ------- |
+| ISO 7380 M5x10 screw | 4 | Different screw heads are fine too (max. 10mm diameter, no countersunk) |
 | M5 slot nut for your type of aluminium extrusions | 4 |
 
 #### LCD Controller Mount
@@ -177,3 +178,9 @@ Print the following:
 From the VORON Switchwire repository (link above), print everything...
 * ... from directory `STL/Electronics/LCD/2004 (Prusa)` for LCD 2004 controller (Anet A8's stock LCD controller)
 * ... or from directory `STL/Electronics/LCD/Mini12864` for Mini 12864 LCD controller
+
+#### Lightweight LM8UU Bearing Blocks
+| Item | Amount | Comment |
+| ---- | :----: | ------- |
+| DIN 934 M4 nut | 4 | Per block |
+| ISO 7380 M4x8 screw | 4 | Per block; Different screw heads are fine too (no countersunk) |
