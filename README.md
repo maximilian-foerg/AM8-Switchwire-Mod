@@ -184,3 +184,10 @@ From the VORON Switchwire repository (link above), print everything...
 | ---- | :----: | ------- |
 | DIN 934 M4 nut | 4 | Per block |
 | ISO 7380 M4x8 screw | 4 | Per block; Different screw heads are fine too (no countersunk) |
+
+#### Other
+* Print some **2020 Cable Clips** for cable management with zip ties.
+* From the Switchwire repository ypu can print:
+  * `STL/Electronics/skr_mini_e3_mount.stl` to mount the recommended SKR Mini E3 board
+  * `STL/Electronics/raspberry_pi_mount.stl` to mount a Raspberry Pi
+  * or `STL/Electronics/raspberry_pi_zero_shelf` to mount a Raspberry Pi Zero on the SKR Mini E3, which results in a cheap and compact control unit. There's a great [video](https://www.youtube.com/watch?v=AtW3GqkKUz8) about how to connect them.
