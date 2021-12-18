@@ -12,17 +12,18 @@ _Table of Contents_
 This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switchwire, which also makes the AM8 compatible with VORON Afterburner.
 
 ![Render 01](Images/Render%2001.png)
-![Render 01](Images/Render%2002.png)
+![Render 02](Images/Render%2002.png)
 
 In case you don't know about the Voron Project, check it out at https://www.vorondesign.com/. They design outstanding open-source 3D printers, and if you're looking for a *real* upgrade, I'd suggest you build a Voron instead. It probably won't get any better.
 But if you enjoy tinkering on your cheap 3D printer just like me, this mod could be something for you.
 
 ## Renders
-![Render 02](Images/Render%2003.png)
-![Render 03](Images/Render%2004.png)
-![Render 04](Images/Render%2005.png)
-![Render 04](Images/Render%2006.png)
-![Render 04](Images/Render%2007.png)
+![Render 03](Images/Render%2003.png)
+![Render 04](Images/Render%2004.png)
+![Render 05](Images/Render%2005.png)
+![Render 06](Images/Render%2006.png)
+![Render 07](Images/Render%2007.png)
+![Render 08](Images/Render%2008.png)
 
 ## Some Facts
 * Build volume is 220x220x220mm with Anet A8 print head and 220x220x270mm with VORON Afterburner.
