@@ -9,7 +9,7 @@ _Table of Contents_
 6. [FAQ](#faq)
 7. [BOM (Bill of Materials)](#bom)
 
-This is a Core XZ upgrade for the popular AM8 frame inspired by the Voron Switchwire, which also makes the AM8 compatible with VORON Afterburner.
+This is a Core XZ upgrade for the popular [AM8 frame](https://www.thingiverse.com/thing:2263216) inspired by the Voron Switchwire, which also makes the AM8 compatible with VORON Afterburner.
 
 ![Render 01](Images/Render%2001.png)
 ![Render 02](Images/Render%2002.png)
@@ -177,7 +177,7 @@ Required parts for optional accessories.
 | Threaded heat insert M3x5x4 | 2 |
 
 From the VORON Switchwire repository (link above), print everything...
-* ... from directory `STL/Electronics/LCD/2004 (Prusa)` for LCD 2004 controller (Anet A8's stock LCD controller)
+* ... from directory `STL/Electronics/LCD/2004 (Prusa)` for LCD 2004 controller
 * ... or from directory `STL/Electronics/LCD/Mini12864` for Mini 12864 LCD controller
 
 #### Lightweight LM8UU Bearing Blocks
