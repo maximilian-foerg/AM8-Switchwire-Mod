@@ -77,7 +77,7 @@ This sections contains some tips for firmware configuration.
 * Max. Z position: 270
 * Max. velocity (XY): 120 mm/s
 * Max. velocity (Z): 100 mm/s
-* Max. acceleration (XY directions): 3000 mm/s^2
+* Max. acceleration (XY directions): 2500 mm/s^2
 * Max. acceleration (Z direction): 1000 mm/s^2
 
 ## FAQ
