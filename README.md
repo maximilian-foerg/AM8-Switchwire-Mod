@@ -26,20 +26,20 @@ But if you enjoy tinkering on your cheap 3D printer just like me, this mod could
 ![Render 08](Images/Render%2008.png)
 
 ## Some Facts
-* Build volume is 220x220x220mm with Anet A8 print head and 220x220x270mm with VORON Afterburner.
+* Build volume is 220x220x220mm with Anet A8 print head and up to 220x220x270mm with VORON Afterburner.
 * The dimensions of the aluminum extrusions are the same as for the AM8.
 * This upgrade uses as many of the original Anet A8 and AM8 parts as possible. Still, you will have to buy some stuff. Have a look at the [BOM](#bom).
 * Although I redesigned every part, the Y axis did not change compared to the AM8. So if you already have an AM8, you can continue to use your Y axis.
 
 **_CAUTION!_**
 * Altough it would work, **you better not use the original Anet A8 board for this mod**. The Anet A8 board is designed to have two motors connected to the stepper motor driver for the Z axis. Many older versions of the board do not allow you to regulate the voltage for these motors. Since this mod only requires one stepper motor for the Z axis, it would get twice as much current as it should. This could destroy the motor. But it is a good idea to change to a more modern board anyway - especially TMC stepper motor drivers will raise the printer to a new level. My recommendation is the Bigtreetech SKR mini E3 V2. At first glance it may seem expensive, but it has TMC 2209 drivers integrated and is therefore relatively cheap. The TMC drivers allow the voltage for each stepper motor to be controlled individually by software.
-* You will have to flash a new firmware (and for the time being, configure it yourself). One possibility is to use [Marlin](https://marlinfw.org/), which can be configured for Core XZ motion systems. My recommendation is [Klipper](https://www.klipper3d.org/) together with a Raspberry Pi running [Mainsail](https://docs.mainsail.xyz/). Klipper runs all calculations on the much more computationally powerful Raspberry Pi, so you can use it to compensate for the weak hardware of the original Anet A8 or other cheap 3D printer motherboards.
+* You will have to flash a new firmware (and for the time being, configure it yourself). One possibility is to use [Marlin](https://marlinfw.org/), which can be configured for Core XZ motion systems. My recommendation is [Klipper](https://www.klipper3d.org/) together with a Raspberry Pi running [Mainsail](https://docs.mainsail.xyz/). Klipper runs all calculations on the much more computationally powerful Raspberry Pi, so you can use it to compensate for the weak hardware of the original Anet A8 or other 3D printer controller boards.
 
 ## Why Core XZ?
 3D printers make fast movements, so it is a great advantage if moving parts have the lowest possible mass. This is why the Core XY architecture was developed, where two stepper motors can move the print head in two directions through a sophisticated belt drive without having to move themselves. Well-known DIY Core XY printers are, for example, the [Voron 0](https://www.vorondesign.com/voron0.1), [Voron Trident](https://www.vorondesign.com/voron_trident) and [Voron 2](https://www.vorondesign.com/voron2.4), or the very popular [Hypercube](https://www.thingiverse.com/thing:1752766) and [Hypercube Evolution](https://www.thingiverse.com/thing:2254103).
 However, a Core XY motion system requires a cube-shaped frame, which we do not have with the AM8. Converting the frame would contradict the sense of an "upgrade" and would rather be a completely new printer. Therefore, the [Voron Switchwire](https://www.vorondesign.com/voron_switchwire) gave me the idea to implement the Core XY architecture rotated by 90 degrees as Core XZ architecture on the AM8. This has the following advantages:
 * The weight of the X axis is now balanced, because there is no longer a motor on one side.
-* The Z axis becomes lighter since all stepper motors are fixed to the frame.
+* The X axis becomes lighter since all stepper motors are fixed to the frame.
 * You get rid of the threaded spindles.
 * You can make movements in the Z direction just as fast as in the X and Y directions.
 * You need one less stepper motor.
@@ -57,32 +57,25 @@ However, a Core XY motion system requires a cube-shaped frame, which we do not h
 * Before printing, calibrate your extruder steps and the temperature and flow rate for your specific filament. Get rid of any strining, warping and elephant food on your prints. There are tons of tutorials on the web on how to do each of that.
 
 ## Firmware Tips
-This sections contains some tips for firmware configuration.
+This sections contains some tips for firmware configuration. Note that the firmware directory contains some configurations.
 
 ### General
 * Min. Y position: 0
 * Max. Y position: 220
 * Min. Z position: 0
-* Z hop before homing: 5 mm
+* Z hop before homing: 5
 * DO NOT disable stepper motors (g-code command `M84`) after prints. Print head would fall down on print or bed.
 ### Anet A8 print head
 * Min. X position: -24
 * Max. X position: 225
 * Max. Z position: 220
-* Max. velocity (all directions): 100 mm/s
-* Choose a z hop > 30mm if using a level probe instead of the Z endstop switch. This is necessary because if the printhead falls next to the bed after power off, the nozzle protrudes about 30mm below the bed.
+* Choose a z hop > 30 if using a level probe instead of the Z endstop switch. This is necessary because if the printhead falls next to the bed after power off, the nozzle protrudes about 30mm below the bed.
 ### VORON Afterburner print head
-* Min. X position: -13.50mm
+* Min. X position: -13
 * Max. X position: 240
-* Max. Z position: 270
-* Max. velocity (XY): 120 mm/s
-* Max. velocity (Z): 100 mm/s
-* Max. acceleration (XY directions): 2500 mm/s^2
-* Max. acceleration (Z direction): 1000 mm/s^2
+* Max. Z position: 250
 
 ## FAQ
-### Could you provide a ready-to-go Marlin or Klipper config for this printer?
-Sadly not. This is because I do not have the original Anet A8 board anymore. On my prototype, I'm using Klipper together with an MKS Gen L V1.0 Board, TMC 2208 stepper drivers, and a LJ18A3-8-Z/AX bed leveling probe. If you think my config can still be helpful to you, I'll be happy to send it to you. In the future I'd like to provide ready to use configurations for Marlin and Klipper, but I can't promise that.
 ### Why are there three versions of the XZ Axis X Rod Mount (40, 45 and 46mm)?
 There are two versions of the Anet A8, one with 45mm spacing between the linear rods of the X-axis, and one with 46mm spacing. This also means that the ball bearings on the print head are either 45mm or 46mm apart. You need to find out which version of the Anet A8 you have, and print the appropriate version of the rod mounts. The 40mm rod mounts are needed for the VORON Afterburner.
 
@@ -155,16 +148,16 @@ Print the following:
 Required parts for optional accessories.
 
 #### Print Head Cable Duct
-| Item | Amount | Comment |
-| ---- | :----: | ------- |
+| Item | Amount |
+| ---- | :----: |
 | ISO 7380 M5x10 screw | 1 |
 | M5 slot nut for your type of aluminium extrusions | 1 |
-| Zip tie | 3 | Max. 3.50mm in width |
+| Zip tie | 3 |
 
 #### Feet
-| Item | Amount | Comment |
-| ---- | :----: | ------- |
-| ISO 7380 M5x10 screw | 4 | Different screw heads are fine too (max. 10mm diameter, no countersunk) |
+| Item | Amount |
+| ---- | :----: |
+| ISO 7380 M5x10 screw | 4 |
 | M5 slot nut for your type of aluminium extrusions | 4 |
 
 #### LCD Controller Mount
