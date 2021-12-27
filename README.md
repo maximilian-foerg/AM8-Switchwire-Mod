@@ -1,14 +1,16 @@
 # AM8 Switchwire Mod
 
-_Table of Contents_
-1. [Renders](#renders)
-2. [Some Facts](#some-facts)
-3. [Why Core XZ?](#why-core-xz)
-4. [Printing Tips](#printing-tips)
-5. [Firmware Tips](#firmware-tips)
-6. [FAQ](#faq)
-7. [BOM (Bill of Materials)](#bom)
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Renders](#renders)
+3. [Some Facts](#some-facts)
+4. [Why Core XZ?](#why-core-xz)
+5. [Printing Tips](#printing-tips)
+6. [Firmware Tips](#firmware-tips)
+7. [FAQ](#faq)
+8. [BOM (Bill of Materials)](#bom)
 
+## Introduction
 This is a Core XZ upgrade for the popular [AM8 frame](https://www.thingiverse.com/thing:2263216) inspired by the Voron Switchwire, which also makes the AM8 compatible with VORON Afterburner.
 
 ![Render 01](Images/Render%2001.png)
