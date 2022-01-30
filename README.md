@@ -108,7 +108,7 @@ The following lists specify which additional parts you'll need to upgrade your e
 | DIN 934 M2 nut | 4 | Only 2 if you're not using the Z endstop |
 | DIN 912 M2x10 screw | 4 | Only 2 if you're not using the Z endstop |
 | ISO 7380 M3x25 screw | 4 |
-| ISO 7380 M3x30 screw | 20 |
+| ISO 7380 M3x30 screw | 18 |
 | DIN 912 M3x30 screw or any other M3 screw with 30-40mm in length | 1 | Only if you ARE using the Z endstop |
 | ISO 7380 M5x10 screw | 17 | Only 16 if you're not using the Z endstop |
 | DIN 912 M5x30 screw | 4 |
@@ -117,7 +117,7 @@ The following lists specify which additional parts you'll need to upgrade your e
 | GT2 16T timing pulley | 1 | 3 needed in total, but 2 are already included with Anet A8 |
 | GT2 timing belt with 6mm width | ~5m | Glassfiber belt recommended, and it's highly recommended to replace the Y axis belt too |
 | F623 ball bearing | 16 |
-| Threaded heat insert M3x5x4 | 17 | The ones VORON printers use; Only 16 if you're not using the Z endstop |
+| Threaded heat insert M3x5x4 | 15 | The ones VORON printers use; Only 14 if you're not using the Z endstop |
 
 ### If you want to upgrade your Y axis, you'll ALSO need:
 | Item | Amount | Comment |
