@@ -46,8 +46,24 @@ However, a Core XY motion system requires a cube-shaped frame, which we do not h
 * You can make movements in the Z direction just as fast as in the X and Y directions.
 * You need one less stepper motor.
 
+## To check before modding your printer
+### Extrusions
+This mod is using the same aluminium extrusions as the AM8 mod. Extrusions used for designing the parts are Misumi HFSB5-2040, but any 2020 B-type nut 6 extrusions will work.
+Make sure your extrusions have these lenghts:
+* 3 * 310mm
+* 2 * 340mm
+* 2 * 440mm
+A few mm more or less will work too, as long as the deviations are consistent (f.e. 3 * 313mm is fine, but 2 * 310mm and 1 * 313mm is not).
+
+### Linear Rods
+This mod assumes that the original linear rods of the Anet A8 are used. Their lengths are:
+* 2 * 436mm
+* 4 * 380mm
+The required length of the X axis rods is the length of your shortest extrusion + 115mm. So for the spec 310mm extrusions, rods of 425mm in length are required. Longer rods will stick out on the sides, but that's ok.
+
 ## Printing Tips
-* A number at the end of each file name indicates how often the part must be printed.
+* A number at the end of each file name indicates how often the part must be printed (no number = print it once).
+* The `[A]` tag at the beginning of a file name means that this is an accent part. You can print it in an accent color if you like.
 * All parts are already oriented for the best printing position. Do not change the orientation. They are specially designed and oriented to be printed without any supports.
 * The parts HAVE to be printed in ABS, PETG or another material that can withstand mechanical stress. PLA is NOT an option. Avoid PETG if you have an enclosure for your printer or want to build one, because it bends at high ambient temperatures ("heat creep"). ABS is the best way to go here.
 * The parts are designed to be printed with a 0.4mm nozzle at 0.2mm layer height. I recommend the following slicer settings:
@@ -134,11 +150,12 @@ For the adapter and belt clamp, you need (some may also be listed in the officia
 
 For the rest of the items, please refer to the official VORON sourcing guide: https://www.vorondesign.com/sourcing_guide (select 'VORON Afterburner' at the bottom).
 
-For the printed parts, you can download Switchwire's release repository: https://github.com/VoronDesign/Voron-Switchwire/releases/tag/V1.0. You will find the STLs under `STL/Gantry/XZ_Axis/X_Carriage`.
+For the printed parts, you can download Switchwire's repository: https://github.com/VoronDesign/Voron-Switchwire (click on _Code_ -> _Download ZIP_). You will find the STLs under `STL/Gantry/XZ_Axis/X_Carriage`.
 Print the following:
 * `[a]_blower_housing_front.stl`
 * `blower_housing_rear.stl`
 * `hotend_fan_mount.stl`
+* `Direct_Feed/[a]_connector_cover.stl` (If you like, but it isn't really compatible)
 * `Direct_Feed/[a]_guidler.stl`
 * `Direct_Feed/[a]_latch.stl`
 * `Direct_Feed/[a]_latch_shuttle.stl`
