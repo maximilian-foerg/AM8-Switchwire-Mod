@@ -25,7 +25,6 @@ But if you enjoy tinkering on your cheap 3D printer just like me, this mod could
 ![Render 05](Images/Render%2005.png)
 ![Render 06](Images/Render%2006.png)
 ![Render 07](Images/Render%2007.png)
-![Render 08](Images/Render%2008.png)
 
 ## Some Facts
 * Build volume is 220x220x220mm with Anet A8 print head and up to 220x220x270mm with VORON Afterburner.
