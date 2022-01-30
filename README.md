@@ -53,12 +53,14 @@ Make sure your extrusions have these lenghts:
 * 3 * 310mm
 * 2 * 340mm
 * 2 * 440mm
+
 A few mm more or less will work too, as long as the deviations are consistent (f.e. 3 * 313mm is fine, but 2 * 310mm and 1 * 313mm is not).
 
 ### Linear Rods
 This mod assumes that the original linear rods of the Anet A8 are used. Their lengths are:
 * 2 * 436mm
 * 4 * 380mm
+
 The required length of the X axis rods is the length of your shortest extrusion + 115mm. So for the spec 310mm extrusions, rods of 425mm in length are required. Longer rods will stick out on the sides, but that's ok.
 
 ## Printing Tips
@@ -108,8 +110,9 @@ The following lists specify which additional parts you'll need to upgrade your e
 | ISO 7380 M3x25 screw | 4 |
 | ISO 7380 M3x30 screw | 20 |
 | DIN 912 M3x30 screw or any other M3 screw with 30-40mm in length | 1 | Only if you ARE using the Z endstop |
-| ISO 7380 M5x10 screw | 21 | Only 20 if you're not using the Z endstop |
-| M5 slot nut for your type of aluminium extrusions | 21 | Only 20 if you're not using the Z endstop |
+| ISO 7380 M5x10 screw | 17 | Only 16 if you're not using the Z endstop |
+| DIN 912 M5x30 screw | 4 |
+| M5 T-Nut for 2020 | 21 | Only 20 if you're not using the Z endstop |
 | DIN 988 6x3x0.5 precision shim ring | 16 | YES, measurements are important, and NO, you can't just use cheap M3 washers |
 | GT2 16T timing pulley | 1 | 3 needed in total, but 2 are already included with Anet A8 |
 | GT2 timing belt with 6mm width | ~5m | Glassfiber belt recommended, and it's highly recommended to replace the Y axis belt too |
@@ -124,8 +127,9 @@ The following lists specify which additional parts you'll need to upgrade your e
 | DIN 934 M3 nut | 1 |
 | ISO 7380 M3x16 screw | 1 | DIN 912 or other button head would work too, length should be 16-18mm |
 | ISO 7380 M3x30 screw | 4 |
-| ISO 7380 M5x10 screw | 12 | You may already have these from your AM8 |
-| M5 slot nut for your type of aluminium extrusions | 12 | You may already have these from your AM8 |
+| ISO 7380 M5x10 screw | 10 | You may already have these from your AM8 |
+| DIN 912 M5x30 screw | 2 |
+| M5 T-Nut for 2020 | 12 | You may already have these from your AM8 |
 | DIN 988 6x3x0.5 precision shim ring | 2 | Again, measurements are important |
 | F623 ball bearing | 2 | Came with A8 |
 
@@ -170,14 +174,14 @@ Required parts for optional accessories.
 | Item | Amount |
 | ---- | :----: |
 | ISO 7380 M5x10 screw | 1 |
-| M5 slot nut for your type of aluminium extrusions | 1 |
+| M5 T-Nut for 2020 | 1 |
 | Zip tie | 3 |
 
 #### Feet
 | Item | Amount |
 | ---- | :----: |
 | ISO 7380 M5x10 screw | 4 |
-| M5 slot nut for your type of aluminium extrusions | 4 |
+| M5 T-Nut for 2020 | 4 |
 
 #### LCD Controller Mount
 | Item | Amount |
@@ -185,7 +189,7 @@ Required parts for optional accessories.
 | ISO 7380 M3x10 screw | 2 |
 | ISO 7380 or DIN 912 M3x12 screw | 4 |
 | ISO 7380 M5x10 screw | 1 |
-| M5 slot nut for your type of aluminium extrusions | 1 |
+| M5 T-Nut for 2020 | 1 |
 | Threaded heat insert M3x5x4 | 2 |
 
 From the VORON Switchwire repository (link above), print everything...
